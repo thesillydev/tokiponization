@@ -38,4 +38,4 @@ jan Hana
 jan Emilija
 ```
 
-These codes were made to be open source, so feel free to use it for your projects.
+These codes were made to be open source, so feel free to use it for your projects[Just mention my name(jan Alisa) to credit the original author and you're good to go].
