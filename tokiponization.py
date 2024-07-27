@@ -6,7 +6,7 @@ vowels = "aeiou"
 consonants = "".join(list(set(string.ascii_lowercase) - set(vowels)))
 
 
-# Function the name as close to proper tokiponization as possible.
+# Function that lets the name as close to proper tokiponization as possible.
 def repeated_letters(name):
     name = name.lower()
 
