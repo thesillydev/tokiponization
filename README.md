@@ -18,6 +18,13 @@ names = "Nataniel,Gabriel,Cameron,David,Julian,Ezekiel,Joseph,Lucas,Abigail,Auro
 for name in names:
     print(tokiponize("jan", name))
 ```
+
+```js
+const names = "Nataniel,Gabriel,Cameron,David,Julian,Ezekiel,Joseph,Lucas,Abigail,Aurora,Carolina,Stella,Adeline,Hannah,Emilia".split(",")
+for (const name of names) {
+    console.log(tokiponize("jan", name))
+}
+```
 It returns
 
 ```
