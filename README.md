@@ -8,16 +8,15 @@ This is a project made to tokiponize names automatically using both Python and J
 - Give different tokiponizations if there's no single way of tpize it(Like with the names Samuel and Atsuko)
 - Tokiponize composite names(like Son Goku or Danilo Gomez)
 
-# Limitations
+# Limitation
 - It is spelling based only, so it's impossible to tokiponize English names with it right now
-
 #### I am planning in making a separated code just for that so don't worry
 
 # Example
 ```python
 names = "Nataniel,Gabriel,Cameron,David,Julian,Ezekiel,Joseph,Lucas,Abigail,Aurora,Carolina,Stella,Adeline,Hannah,Emilia".split(",")
-for nome in names:
-    print(tokiponize("jan", nome))
+for name in names:
+    print(tokiponize("jan", name))
 ```
 It returns
 
